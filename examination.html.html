@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="ann.css">
+
+    <style>
+        html,body{
+        margin:0; 
+        padding:0; 
+        box-sizing: border-box;
+        background-size: 1500px; 
+
+        }
+        #nav-fixed{
+            position:relative;
+            width: 100%; 
+            border-bottom:1px solid #f1f1f1;
+            padding:10px 0; 
+            background-color:rgb(221,236,240);
+            color: black; 
+            font-weight: bold; 
+            text-transform: uppercase;
+            border-style:ridge;
+        
+        }
+		ul{
+            list-style-type: none; 
+            padding:0;
+        }
+
+        li{    
+            display: inline;
+            margin: 15px 10px;
+            padding-bottom: 5px;
+            color: #000;
+            text-decoration: none;
+        }
+        li:hover a{
+            border-bottom:3px blue;
+            color: blue;
+            cursor:pointer;
+        }
+
+        .active{
+            color: blue;
+            border-bottom:3px solid blue;
+        }
+        
+        #service-section{
+            margin: 50px 0;
+           
+        }
+        .heading{
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            color: #000;
+        }
+        .service-card{
+            width: 300px;
+            height: 400px;
+            border-radius: 10px;
+            border: 1px solid blue;
+            margin: 10px;
+            box-shadow: 10px 10px 10px gray;
+            overflow: hidden;
+            float: left;
+            padding: 70px;
+        }
+        .service-heading{
+            font-size: 22px;
+            padding: 10px;
+            font-weight: bold;
+            text-align: center;
+            color:black;
+            padding-bottom: 0;
+        }
+        .service-para{
+            text-overflow:unset;
+        }
+        .bookh{
+	float:right;
+	margin-right: 80px;
+	margin-top: 20px;
+    margin-left: 50px;
+	padding: 5px 10px 10px 10px;
+	font-size: x-large;
+	background-color:orange;
+	border-radius: 20px;
+  cursor: pointer;
+    }
+
+  .form-popup {
+ width: 100%;
+  height:100%;
+  background-color: black;
+  opacity: 0.96;
+  position: fixed;
+  left:0;
+  bottom:0;
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  display: none;
+}
+
+.hide{
+  padding: 10px 50px 10px 50px;
+  background-color: orange;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 80px;
+  }
+  .popup{
+ min-width: 500px;
+  min-height: 300px;
+  background-color: white;
+  border-radius: 8px;
+  text-align:center;
+  padding:10px 10px 10px 10px;
+margin:0px 5px 0px 5px ;
+}
+body{
+background-color:skyblue;
+}
+
+.first{
+width:100%;
+padding:0;
+color:black;
+text-transform:uppercase;
+border-style:ridge;
+border-bottom:1px solid #f1f1f1;
+
+}
+
+li{
+
+    display:inline;
+    margin:15px 10px;
+    padding:15px;
+    transition:color 0.4s;
+    underline:nounderline;
+}
+
+li:hover{
+       
+       color:blue;
+       cursor:pointer;
+
+}
+
+ul{
+ list-style-type:none;
+ margin:30px;
+ padding:0;
+}
+
+#photo{
+   border-radius:25px;
+   margin:20px;
+
+}
+
+
+.profile{
+    
+       
+        background-color:skyblue;
+        
+        overflow: hidden; 
+        padding:px; 
+        border:black;
+        border-style:groove;
+       
+        height:600px;
+        width:300px;
+        float:left;
+        text-align:center;
+       
+        border-radius: 15px ;
+        
+
+ 
+
+}
+
+
+
+#name{
+
+     width: 100px;  
+    height: 30px;  
+    border: none;  
+    border-radius:30px;  
+    padding-left: 7px;  
+    color: white;
+    background-color:green;
+    
+}
+
+h6{
+font-size:20;
+}
+table,th,td{
+border: solid black;
+border-style:solid;
+border-collapse:collapse;
+width:50%;
+
+}
+table{
+margin:0 0 0 500px;
+}
+
+th{
+padding:20px;
+}
+ann{
+padding:5px;
+}
+
+
+h1{
+padding:10px;
+}
+
+
+
+
+</style>
+
+</style>
+    
+</head>
+<body>
+<h1><center>UNIVERSITY MANAGEMENT SYSTEM</center></h1>
+	
+<div id="first">
+<ul>
+<a href=>
+<li><img src="C:\Users\hp\Documents\university logo html.jpg" height="100" width="100"></li></a>
+<a href="C:\Users\hp\Documents\HTML project.html\cseproject.html.html">
+		   <li>HOME</li></a>
+<a href="C:\Users\hp\Documents\HTML project.html\timetable.html.html">
+<li>TIME TABLE</li></a>
+<a href="C:\Users\hp\Documents\HTML project.html\examination.html.html">
+<li>ANNOUNCEMENTS</li></a>
+<a href="C:\Users\hp\Documents\HTML project.html\passwword.html.html">
+<li>CHANGE PASSWORD</li></a>
+<a href="C:\Users\hp\Documents\HTML project.html\loginpage.html.html">
+<li>LOGOUT</li></a>
+<a href="C:\Users\hp\Documents\HTML project.html\aboutus.html.html">
+<li>ABOUT US</li</a>
+</ul>
+</div><br><br><br>
+
+	   </ul>   
+</div> 
+<form>
+<section id="service-section" >
+    <p class="heading">ANNOUNCEMENTS</p>
+    <div class="d-flex flex-wrap justify-content-center">
+        <div class="service-card">
+<h1>TEACHER ON LEAVE</h1>
+     <p>COURSE CODE:MTH174<br>
+        TEACHER NAME:SHAKIR<br>
+        SECTION:KOC10<br>
+        DAY SPAN:FULL DAY
+
+</p>   
+           
+          <p>COURSE CODE:CSE111<br>
+        TEACHER NAME:PARSHOTAM<br>
+        SECTION:KOC10<br>
+        DAY SPAN:HALF DAY
+
+</p>   
+                  
+          <p>COURSE CODE:ECE279<br>
+        TEACHER NAME:JASKARAN SINGH<br>
+        SECTION:KOC10<br>
+        DAY SPAN:HALF DAY
+
+</p>   
+        </div>
+        
+        <div class="service-card" >
+<h1>MESSAGES</h1>
+       <h4> LIBRARY BOOK OVERDUE </h4>
+        <p> Dear user, your due date to return the library book Higher
+ engineering mathematics  is approaching, kindly return books issued
+to you by 07 Dec 2022 to avoid any late fee. In case, if you have 
+already returnes the books,please ignore this message.   
+    
+    
+    </div> </div>
+            
+        </div>
+        <div class="service-card">
+<h1> <center>EXAMINATION</center> </h1>
+            
+       <p>YOUR CHE110 EXAM WILL BE CONDUCTED ON 28/12/2022 </p> 
+         
+
+          <p>YOUR CSE326 EXAM WILL BE CONDUCTED ON 21/12/2022 </p> 
+           
+
+       <p>YOUR ECE279 EXAM WILL BE CONDUCTED ON 16/12/2022 </p>  
+  
+
+       <p>YOUR MTH174 EXAM WILL BE CONDUCTED ON 19/12/2022</p>  
+          
+
+      <p> YOUR ECE249 EXAM WILL BE CONDUCTED ON 23/12/2022  
+            </p>
+
+    <div class="form-popup" >
+    <div class="popup">
+    <h1>Your Service Is Booked</h1> <br>
+    <h2>Check Contact Us For More Details</h2>
+
+    </div> </div>
+        </div>
+        </div>
+        </div>
+        
+    
+    
+    </div>
+
+</form>
+
+    
+</body>
+</html>
